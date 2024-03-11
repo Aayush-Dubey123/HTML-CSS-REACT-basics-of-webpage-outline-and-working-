@@ -1,0 +1,34 @@
+<!DOCTYPE html>    ## [ doctype is a standard type which tells the language in which the webpage is written i.e html .(different standards = example : htmm 5 , xhtml etc) ]
+<html>           ##[ tag in which  all code is nested between <html> and <\html> ]
+<head>           ## [ tag  in which all the display code is to be written ]
+
+    <title> My First Web Page </title>                                             ##[ display of title in the load bar ]
+    <meta name="description" content="Page Description Here"/>                     ##[  meta  tag which describes the description provided with the link ]
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>         ##[ utf-8 is a stype of character set used to write and display the content of the webpage  ] 
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>          ##[  viewport sets the webpage according to device in which web is opened and content with
+                                                                                          initial - scale = 1 is used to zome in zome outcontent displayed in webpage    ]
+
+    <style type="text/css">             ##[ style tag is used to set rules of CSS = CASCADING STYLE SHEETS ( HOW IS THE WRITTEN TEXT IS TO BE DISPLAYED) ]
+        Body {    
+            color: red;
+        }
+
+    </style>
+
+    <script>                             ##[ USED JAVA SCRPIT ALL OVER TO USE FUNCTION SET (IGNORE)]
+        function myFunction() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+
+<body>
+This is a Sample HTML Document.
+This Javascript function will capitalize my name:
+Enter your name: <input type="text" id="fname" onchange="myFunction()">     ##[  HOW TO CALL THE FUNCTION THAT IS TO BE DISPLAYED AS A CONTENT ON TOP LEFT OF WEB PAGE ]
+</body>
+
+</html> 
+_________________________________________________________________________
+##[] = TO BE REMOVED WHILE CREATING OF WEB PAGE , WRITTEN TO UNDERSTAND TAGS USED IN CREATING THE WEB CODE .
