@@ -1,0 +1,25 @@
+<table width="100%" height="80" border="0" cellspacing="5" cellpadding="5" bgcolor="white">>
+	     <tr>	
+		     <td height="72" align="center" valign="top"> 
+			    <table width="313" border="0" cellspacing="3" cellpadding="3" bgcolor="#FF9900">
+			 <tr>
+			     <td width="300" align="center" nowrap="nowrap"><font color="black" size="5" face="verdana, geneva, sans-serif"><a href="#"</a><strong>join us in the adventure today</strong></br>
+			  </font></td>
+			 </tr>
+				</table>
+			</td>
+		</tr>
+		   <tr>
+		   <td height="72" align="center" valign="top">
+		   
+		   <font color="black" size="5" face="verdana, geneva, sans-serif"><strong>register here</strong></br>
+			  </font>
+		    
+			<form name="contact" method="post" action="send.php">
+			<input type="text" name="email"/>
+			<input type="submit" name="button" value="submit"/>
+			</form>
+			
+			</td>
+		</tr>	
+     </table>	
