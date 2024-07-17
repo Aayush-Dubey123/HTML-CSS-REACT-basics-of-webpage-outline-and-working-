@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level html css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+ <a id="logo">amazon.in</a>
+ <a href="#">account</a>
+ <a href="#">mycart</a>
+ <a href="#">contact us</a>
+    <input placeholder="search amazon.in">
+    <button>search</button>
+
+   </div> 
+</body>
+</html> 
+
+
+____________________________________________________________
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+}
+button {
+    background-color: #f08804;
+}
+#logo {
+    color: #f08804;
+    font-size: 40px;
+}
+a {
+    margin-right: 200px;
+    
+}
